@@ -1,0 +1,148 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F26K20 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"13 D:\GitHub\PIC18F26K20_Examples\XC8-18F26K20_OnOffLED_Button.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"20 D:\GitHub\PIC18F26K20_Examples\XC8-18F26K20_OnOffLED_Button.X\mcu.c
+[v _MCU_Initialize MCU_Initialize `(v  1 e 1 0 ]
+"40
+[v _IO_Task IO_Task `(v  1 e 1 0 ]
+"434 D:/packs/Microchip/PIC18F-K_DFP/1.7.134/xc8\pic\include\proc\pic18f26k20.h
+[v _ANSEL ANSEL `VEuc  1 e 1 @3966 ]
+"522
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+[s S47 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"588
+[s S56 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 AN4 1 0 :1:5 
+]
+[s S63 . 1 `uc 1 C12IN0M 1 0 :1:0 
+`uc 1 C12IN1M 1 0 :1:1 
+`uc 1 C2INP 1 0 :1:2 
+`uc 1 C1INP 1 0 :1:3 
+`uc 1 C1OUT 1 0 :1:4 
+`uc 1 C2OUT 1 0 :1:5 
+]
+[s S70 . 1 `uc 1 C12IN0N 1 0 :1:0 
+`uc 1 C12IN1N 1 0 :1:1 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 SS 1 0 :1:5 
+]
+[s S77 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_SS 1 0 :1:5 
+]
+[s S80 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 VREFN 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nSS 1 0 :1:5 
+]
+[s S85 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 CVREF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S90 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 HLVDIN 1 0 :1:5 
+]
+[s S93 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+`uc 1 . 1 0 :6:1 
+`uc 1 RJPU 1 0 :1:7 
+]
+[u S97 . 1 `S47 1 . 1 0 `S56 1 . 1 0 `S63 1 . 1 0 `S70 1 . 1 0 `S77 1 . 1 0 `S80 1 . 1 0 `S85 1 . 1 0 `S90 1 . 1 0 `S93 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES97  1 e 1 @3968 ]
+"758
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"988
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"1251
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"1363
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1475
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+[s S164 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"1502
+[s S173 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 LC3 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S182 . 1 `S164 1 . 1 0 `S173 1 . 1 0 ]
+[v _LATCbits LATCbits `VES182  1 e 1 @3979 ]
+"1587
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1809
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"2031
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"13 D:\GitHub\PIC18F26K20_Examples\XC8-18F26K20_OnOffLED_Button.X\mcu.c
+[v _BUTON_Status BUTON_Status `a  1 e 1 0 ]
+"14
+[v _BUTON_Ticks BUTON_Ticks `uc  1 e 1 0 ]
+"13 D:\GitHub\PIC18F26K20_Examples\XC8-18F26K20_OnOffLED_Button.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"19
+} 0
+"20 D:\GitHub\PIC18F26K20_Examples\XC8-18F26K20_OnOffLED_Button.X\mcu.c
+[v _MCU_Initialize MCU_Initialize `(v  1 e 1 0 ]
+{
+"38
+} 0
+"40
+[v _IO_Task IO_Task `(v  1 e 1 0 ]
+{
+"58
+} 0
